@@ -1,10 +1,10 @@
 {
   "model": "llama3.2",
   "options": {
-    "temperature": 0,
+    "temperature": 1,
     "max_tokens": 100
   },
   "messages": [
-      { "role": "system", "content": ""}
+      { "role": "system", "content": "You are a trader in a DnD world. You have an inventory with the following items: {{inventory}}. "}
   ]
 }
